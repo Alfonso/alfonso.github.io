@@ -1,6 +1,6 @@
 ## Hi There
 
-[![Github]({{alfonso.github.io}}/assets/github.png)](https://github.com/alfonso)
+[![Github]({{alfonso.github.io}}/assets/github.png)](https://github.com/alfonso) [![LinkedIn]({{alfonso.github.io}}/assets/linkedin.png)](https://www.linkedin.com/in/alfonso-buono-819639169/)
 
 
 You can use the [editor on GitHub](https://github.com/Alfonso/alfonso.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
