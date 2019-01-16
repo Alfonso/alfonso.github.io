@@ -1,10 +1,38 @@
+/*
+    #0B0C10 - Dark Grey
+    #1F2833 - Navy-Grey
+    #C5C6C7 - Grey
+    #66FCF1 - Light Blue
+    #45A29E - Blue
+*/
+a{
+    color:inherit;
+    text-decoration: inherit
+}
+html {
+    background-color: #0B0C10;
+}
+p {
+    color: #C5C6C7;
+}
 #content {
-  float: right ;
-  width: 70% ;
+    float: right;
+    width: 70%;
+}
+h1 {
+    color: #66FCF1;
+    font-size: 80px;
+    margin:0;
+}
+h2 {
+    color: #45A29E;
+}
+h3{
+    color: #C5C6C7;
 }
 #navbar {
-  float: right;
-  width: 30%;
+    float: right;
+    width: 30%;
 }
 .center {
 	display: block;
