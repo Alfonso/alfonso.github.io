@@ -10,14 +10,11 @@ a{
     text-decoration: inherit
 }
 html {
-    background-color: #0B0C10;
+    /* this is just the background of the whole site*/
+    background-image:url("assets/background.png")
 }
 p {
     color: #C5C6C7;
-}
-#content {
-    float: right;
-    width: 70%;
 }
 h1 {
     color: #66FCF1;
@@ -33,10 +30,27 @@ h3{
 #navbar {
     float: right;
     width: 30%;
+    height: 100%;
+    margin-top:0;
+    margin-bottom:0;
+
+}
+#content {
+    float: right;
+    width: 70%;
+    overflow: auto;
 }
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+.card {
+    display:inline-block;
+    padding:1px;
+    margin-top: 10px;
+    background-color: rgba(31, 40, 51, 0.75);
+    width:250px;
+    max-width:250px;
 }
