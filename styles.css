@@ -20,15 +20,16 @@ h1 {
     color: #66FCF1;
     font-size: 80px;
     margin:0;
+    /*font-family:'Bungee';*/
 }
 h2 {
     color: #45A29E;
 }
-h3{
-    color: #C5C6C7;
+h3 {
+    color: #66FCF1;
 }
 h4 {
-    color: #C5C6C7;
+    color: #45A29E;
 }
 #navbar {
     float: right;
@@ -58,7 +59,7 @@ h4 {
     width:250px;
     max-width:250px;
     height:200px;
-    max-height:250px;
+    max-height:200px;
 }
 .card:hover{
     transform:scale(1.1);
