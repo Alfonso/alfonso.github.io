@@ -37,12 +37,13 @@ h4 {
     height: 100%;
     margin-top:0;
     margin-bottom:0;
-
+    position:fixed;
 }
 #content {
     float: right;
-    width: 70%;
+    width: 65%;
     overflow: auto;
+    padding-left:5%;
 }
 .center {
 	display: block;
