@@ -1,0 +1,28 @@
+/*
+Colors:
+#EAE7DC - Egg Shell
+#D8C3A5 - Dark Vanilla
+#8E8D8A - Taupe Grey
+#E98074 - Light Salmon
+#E85A4F - Jelly Bean Red
+*/
+
+body{
+  background-color: #EAE7DC;
+}
+
+img.profile{
+  border-radius: 50%;
+  border: 3px solid #8E8D8A;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50;
+}
+
+h1{
+  font-family: 'Manjari', sans-serif;
+  color: #E85A4F;
+  font-size: 100px;
+  line-height: 10px;
+}
