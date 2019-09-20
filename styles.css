@@ -3,6 +3,7 @@ Colors:
 #EAE7DC - Egg Shell
 #D8C3A5 - Dark Vanilla
 #8E8D8A - Taupe Grey
+#636360 - idk what color
 #E98074 - Light Salmon
 #E85A4F - Jelly Bean Red
 */
@@ -10,14 +11,51 @@ Colors:
 body{
   background-color: #EAE7DC;
 }
+/*
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+*/
 
 img.profile{
-  border-radius: 50%;
-  border: 3px solid #8E8D8A;
+  border-radius: 15%;
+  border: 4px solid #636360;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 50;
+  width: 13em;
+  height: 13em;
+}
+
+img.photo{
+  border-radius: 15%;
+  border: 4px solid #636360;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  height: 16em;
+}
+img.largePhoto{
+  border-radius: 15%;
+  border: 4px solid #636360;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  height: 15em;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 h1{
@@ -25,4 +63,48 @@ h1{
   color: #E85A4F;
   font-size: 100px;
   line-height: 10px;
+}
+h2{
+  font-family: 'Manjari', sans-serif;
+  color: #E85A4F;
+  font-size: 40px;
+  line-height: 10px;
+}
+h3{
+  font-family: 'Manjari', sans-serif;
+  color: #E85A4F;
+  font-size: 20px;
+  line-height: 10px;
+}
+p{
+  font-family: 'Manjari',sans-serif;
+  color: #636360;
+}
+a{
+  font-family: 'Manjari',sans-serif;
+  color: #E98074;
+}
+
+.btn{
+  font-family: 'Manjari',sans-serif;
+  color: #E98074;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover{
+  background: #eee;
+}
+
+
+.row{
+  display: none;
+}
+
+.col{
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
