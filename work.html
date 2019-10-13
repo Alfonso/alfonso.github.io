@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5beff123f8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/pageTransition.js"></script>
+    <title>
+        Alfonso Buono
+    </title>
+  </head>
+  <body style="text-align: center;" class="animated slideInRight">
+    <article class="">
+      <header>
+        <h2 align="center">Work Experience</h2>
+      </header>
+      <main>
+        <div class="col">
+          <h3 align="center">Pearson K12 Learning</h3>
+          <img class="photo" src="assets/Interns.png" alt="">
+          <p>
+            During Summer of 2019 I worked at Pearosn K12 in Boston. I worked on a variety of different projects and expanded my knowledge
+            in different fields of Software Engineering.
+          </p>
+          <p>
+            At first I worked closely with the DevOps team to create python tools that assisted in monitoring the company's network.
+            I used Python to build Nagios Core Service to notify 100+ engineers when any of 500+ SSL Certificates were close to expiring.
+            I also used Python to write a script to check what CDN was being used for the 100+ endpoints in order to assist in data migration
+          </p>
+          <p>
+            After finishing work on these tools I was asked to create a proof of concept application to replace a current tool available to students.
+            I also used React Native, Google Vision, Express.js and Node.js to build a photo-recognition app to scan 1000+ textbook pages from 100+
+            textbooks for links and additional material for a learning tool.
+          </p>
+        </div>
+        <div class="col">
+          <h3 align="center">Rutgers Department Grader</h3>
+          <img src="assets/Math.jpg" class="photo">
+          <p>
+            Since Sophomore year I worked with the professors in the mathematics department as well as one other student in order to grade assignments
+            and provide feedback on the topics that need more coverage in lecture.
+          </p>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <button onclick="transitionOut('index.html')" type="button" name="button" class="btn">Home</button>
+          <button onclick="transitionOut('about.html')" type="button" name="button" class="btn">About</button>
+          <button onclick="transitionOut('rutgers.html')" type="button" name="button" class="btn">Rutgers</button>
+          <button onclick="" type="button" name="button" class="btn">Work</button>
+          <button onclick="transitionOut('projects.html')" type="button" name="button" class="btn">Projects</button>
+          <button onclick="transitionOut('hack.html')" type="button" name="button" class="btn">HackRU</button>
+          <button onclick="transitionOut('frat.html')" type="button" name="button" class="btn">Chi Phi</button>
+        </div>
+      </footer>
+    </article>
+  </body>
+</html>

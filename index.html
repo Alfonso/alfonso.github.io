@@ -6,148 +6,43 @@
     <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5beff123f8.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/pageTransition.js"></script>
+    <title>
+        Alfonso Buono
+    </title>
   </head>
-  <title>
-      Alfonso Buono
-  </title>
 
-  <section align="center" id="Profile" class="animated slideInRight">
-    <h1 align="center">Hello</h1>
-    <img src="assets/HappyMe.jpg" class="profile">
-    <p align="center">
-      <a href="https://www.linkedin.com/in/alfonsojosephbuono/"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://github.com/alfonso"><i class="fab fa-github"></i></a>
-      <a href="assets/resume.pdf"><i class="fas fa-file"></i></a>
-      <a href="https://www.facebook.com/alfonso.buono.33?"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/fonz15/"><i class="fab fa-instagram"></i></a>
-      <a href="https://twitter.com/fonz1599"><i class="fab fa-twitter"></i></a>
-    </p>
-    <p align="center">My name is Alfonso Buono</p>
-  </section>
+  <body style="text-align: center;" class="animated slideInRight">
+    <article class="">
+      <header>
+        <h1>Hello</h1>
+        <img src="assets/HappyMe.jpg" class="profile">
+      </header>
+      <main>
+        <p>
+          <a href="https://www.linkedin.com/in/alfonsojosephbuono/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/alfonso"><i class="fab fa-github"></i></a>
+          <a href="assets/resume.pdf"><i class="fas fa-file"></i></a>
+          <a href="https://www.facebook.com/alfonso.buono.33?"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/fonz15/"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/fonz1599"><i class="fab fa-twitter"></i></a>
+        </p>
+        <p>
+          My name is
+          <span style="color: #E85A4F;">Alfonso</span>
+          Buono</p>
+        <p>Let me tell you a little about myself:</p>
+      </main>
+      <footer>
+        <button onclick="" type="button" name="button" class="btn">Home</button>
+        <button onclick="transitionOut('about.html')" type="button" name="button" class="btn">About</button>
+        <button onclick="transitionOut('rutgers.html')" type="button" name="button" class="btn">Rutgers</button>
+        <button onclick="transitionOut('work.html')" type="button" name="button" class="btn">Work</button>
+        <button onclick="transitionOut('projects.html')" type="button" name="button" class="btn">Projects</button>
+        <button onclick="transitionOut('hack.html')" type="button" name="button" class="btn">HackRU</button>
+        <button onclick="transitionOut('frat.html')" type="button" name="button" class="btn">Chi Phi</button>
+      </footer>
+    </article>
+  </body>
 
-  <section align="center" id="About" class="row">
-    <h2>About Me</h2>
-    <div class="col">
-      <p>
-        Hi there! My name is Alfonso and I am a software developer, community leader, and full-time lover of food.
-        I am currently enrolled at Rutgers University, studying Computer Science, Math, and Philosophy.
-      </p>
-      <img src="assets/MeAndVin.jpg" class="largePhoto"></img>
-      <p>
-        When not in
-        class I enjoy eating food, gaming, and working on random projects! I also love being a part of Rutgers'
-        Computer Science community and help a variety of the different clubs on campus.
-      </p>
-    </div>
-  </section>
-
-  <section align="center" id="Rutgers" class="row">
-    <h2>Rutgers University - New Brunswick - 2021 </h2>
-    <div class="col">
-      <p>
-        <b>GPA:</b> 3.72 / 4
-        <br>
-        <b>Major:</b> B.S. in Computer Science and Mathematics
-        <br>
-        <b>Minor:</b> Philosophy
-        <br>
-        <b>Relevant Coursework:</b> Data Structures, Computer Architecture, Discrete I, Databases, Discrete II (current),
-        Graduate Intro to AI (Current), Calculus I-IV, Intro to Mathematical Reasoning, Intro to Linear Algebra,
-        Linear Optimization (current).
-      </p>
-    </div>
-  </section>
-
-  <section align="center" id="Work" class="row">
-    <h2>Work Experience</h2>
-    <div class="col">
-      <h3>Pearson K12 Learning</h3>
-      <img class="photo" src="assets/Interns.png" alt="">
-      <p>
-        During Summer of 2019 I worked at Pearosn K12 in Boston. I worked on a variety of different projects and expanded my knowledge
-        in different fields of Software Engineering.
-      </p>
-      <p>
-        At first I worked closely with the DevOps team to create python tools that assisted in monitoring the company's network.
-        I used Python to build Nagios Core Service to notify 100+ engineers when any of 500+ SSL Certificates were close to expiring.
-        I also used Python to write a script to check what CDN was being used for the 100+ endpoints in order to assist in data migration
-      </p>
-      <p>
-        After finishing work on these tools I was asked to create a proof of concept application to replace a current tool available to students.
-        I also used React Native, Google Vision, Express.js and Node.js to build a photo-recognition app to scan 1000+ textbook pages from 100+
-        textbooks for links and additional material for a learning tool.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Rutgers Department Grader</h3>
-      <img src="" class="photo">
-      <p>
-        Since Sophomore year I worked with the professors in the mathematics department as well as one other student in order to grade assignments
-        and provide feedback on the topics that need more coverage in lecture.
-      </p>
-    </div>
-  </section>
-
-  <section align="center" id="Projects" class="row">
-    <h2>Projects</h2>
-    <div>
-      <h3>Dis a project</h3>
-      <p>Dis info for my project</p>
-    </div>
-    <div>
-      <h3>Dis a project</h3>
-      <p>Dis info for my project</p>
-    </div>
-    <div>
-      <h3>Dis a project</h3>
-      <p>Dis info for my project</p>
-    </div>
-  </section>
-
-  <section align="center" id="HackRU" class="row">
-    <h2>HackRU</h2>
-    <div class="col">
-      <img class="photo" src="assets/HackRU.jpg" alt="">
-      <p>
-        HackRU is the largest Bi-annual hackathon in New Jersey. Here we work with a variety of different sponsors and clubs
-        on campus to host our 24 hour event and foster an environment of learning as well as community.
-      </p>
-      <p>
-        As one of the two executive directors I oversee the 50+ person organization as well as handle communication with the
-        University's administration.
-      </p>
-      <p>Read more about this awesome community here: <a href="https://hackru.org">HackRU</a> </p>
-    </div>
-  </section>
-
-  <section align="center" id="ChiPhi" class="row">
-    <h2>Chi Phi</h2>
-    <div class="col">
-      <img class="photo" src="assets/ChiPhi.jpg" alt="">
-      <p>
-        In the Spring of my Sophomore year I joined the Chi Phi Fraternity. A social fraternity on campus that has been at Rutgers since 1864. Here we have worked closely with the
-        University, other organizations, and New Brunswick to give back to the community. Some of the philanthropy work that we
-        do includes working with the Boys and Girls Club of America as well as help the nearby New Brunswick community gardens.
-      </p>
-      <p>
-        This past summer I created the Chi Phi website as well as a dashboard that allows for the exective board to update
-        information without having knowledge with programming. More information can be found in the project section.
-      </p>
-    </div>
-  </section>
-
-  <footer>
-    <p align="center">Let me tell you a little about myself:</p>
-    <div align="center">
-      <button onclick="transitionOut('Profile')" type="button" name="button" class="btn">Home</button>
-      <button onclick="transitionOut('About')" type="button" name="button" class="btn">About</button>
-      <button onclick="transitionOut('Rutgers')" type="button" name="button" class="btn">Rutgers</button>
-      <button onclick="transitionOut('Work')" type="button" name="button" class="btn">Work</button>
-      <button onclick="transitionOut('Projects')" type="button" name="button" class="btn">Projects</button>
-      <button onclick="transitionOut('HackRU')" type="button" name="button" class="btn">HackRU</button>
-      <button onclick="transitionOut('ChiPhi')" type="button" name="button" class="btn">Chi Phi</button>
-    </div>
-  </footer>
 </html>
